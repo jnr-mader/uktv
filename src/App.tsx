@@ -93,7 +93,7 @@ function App() {
       </div>           
       {data ? (
         <div className="card-wrapper">
-          <button onClick={orderList}>Change</button>          
+          <button onClick={orderList}>Sort data</button>          
           {data.map((item) => (
             <Card 
               key={item.created}
