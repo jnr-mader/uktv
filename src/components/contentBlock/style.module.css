@@ -1,0 +1,26 @@
+.block {
+    position: relative;
+    display: flex;    
+    width: 100%;
+}
+
+.title {
+    width: 30%;
+    font-weight: bold;
+    border-right: 1px solid black;
+}
+
+.title {
+    margin: 0;
+    padding: 10px 30px 10px 0;
+}
+
+.content {
+    width: 70%;
+}
+
+.content {
+    margin: 0;
+    padding: 10px 30px;
+    line-height: 22px;
+}

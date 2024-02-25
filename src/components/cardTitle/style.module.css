@@ -1,0 +1,17 @@
+.titleblock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleblock p {
+    font-weight: 600;
+    color: #646464;
+}
+
+.titleImage {
+    position: absolute;
+    top: -30px;
+    left: auto;
+    right: -30px;
+}
