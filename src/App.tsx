@@ -11,7 +11,6 @@ function App() {
   const [transportData, setTransportsData] = useState<Starships[] | Vehicles[]>([]);
   const [data, setData] = useState<Films[]>([]);
   const [searchItem, setSearchItem] = useState<string>("");
-  const [dataTemplate, setDataTemplate] = useState<string>("");
   const [userMsg, setUserMsg] = useState<string>("Please search with one of the following phrases, Starships, Films or Vehicles")
   const allowedSearchValues: allowedSearchValuesTypes[] = [
     { type: "starships", template: "transport"},
@@ -53,7 +52,6 @@ function App() {
         }else{
           fetchTransportData(ele.type);
         } 
-        setDataTemplate(ele.template)    
       }
     });
   }
